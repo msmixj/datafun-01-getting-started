@@ -1,12 +1,4 @@
-# datafun-01-getting-started
-
-> An opinionated way to get started with Python for data analytics
-
-Set yourself up for productivity and collaboration.
-
-We assume no prior programming experience and that you want to 
-get productive as quickly as possible.
-
+Susie Smith Notes
 
 ## Goals
 

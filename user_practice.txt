@@ -19,3 +19,211 @@ hello
 >>> print( min (a, b))
 3
 >>> 
+(base) C:\Users\15152>python
+Python 3.10.8 | packaged by conda-forge | (main, Nov 24 2022, 14:07:00) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x=7
+>>> y=3
+>>> x+y
+10
+>>> total=x+y
+>>> total
+10
+>>> type(x)
+<class 'int'>
+>>> type(10.5)
+<class 'float'>
+>>> total=10.8+12.2+0.2
+>>> total
+23.2
+>>> 7*4
+28
+>>> 2**10
+1024
+>>> 9**(1/2)
+3.0
+>>> 7/4
+1.75
+>>> 7//4
+1
+>>> 3//5
+0
+>>> 14//7
+2
+>>> -13/4
+-3.25
+>>> -13//4
+-4
+>>> 123/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> z+7
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>> 17%5
+2
+>>> 7.5%3.5
+0.5
+>>> 3*(4-5)
+-3
+>>> 3*4-5
+7
+>>> 4**3**2
+262144
+>>> (4**3)**2
+4096
+>>> 4**3(3**2)
+<stdin>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> 4**(3**2)
+262144
+>>> print('Welcome to Python!')
+Welcome to Python!
+>>> print("Welcome to Python!")
+Welcome to Python!
+>>> print('Welcome','to','Python!')
+Welcome to Python!
+>>> print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+>>> print('ths is a longer string, so we\
+... split it over two lines')
+ths is a longer string, so wesplit it over two lines
+>>> print('this is a longer string, so we \
+... split it over two lines')
+this is a longer string, so we split it over two lines
+>>> print('Sum is', 7+3)
+Sum is 10
+>>> type('word')
+<class 'str'>
+>>> print('int(5.2)','truncates 5.2 to', int(5.2))
+int(5.2) truncates 5.2 to 5
+>>> print('Display "hi" in quotes')
+Display "hi" in quotes
+>>> print('Display 'hi' in quotes')
+  File "<stdin>", line 1
+    print('Display 'hi' in quotes')
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print('Display 'hi' in quotes')
+  File "<stdin>", line 1
+    print('Display 'hi' in quotes')
+          ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print('Display\'hi\' in quotes')
+Display'hi' in quotes
+>>> print("Display the name O'Brien")
+Display the name O'Brien
+>>> print("Display \"hi\" in quotes")
+Display "hi" in quotes
+>>> print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+>>> triple_quoted_string = """This is a triple quoted
+... string that spans two lines"""
+>>> print(triple_quoted_string)
+This is a triple quoted
+string that spans two lines
+>>> triple_quoted_string
+'This is a triple quoted\nstring that spans two lines'
+>>> print("""This is a lengthy
+... multiline string containing
+... a few lines \
+... of text""")
+This is a lengthy
+multiline string containing
+a few lines \
+of text
+>>> print("""This is a lengthy
+...     multiline string containing
+... a few lines \
+... of text
+... """)
+This is a lengthy
+        multiline string containing
+a few lines \
+of text
+
+>>> print("""This is a lengthy
+...     multiline string containing
+... a few lines\
+... of text""")
+This is a lengthy
+        multiline string containing
+a few linesof text
+>>> print("""This is a lengthy
+...     multiline string containing
+... a few lines\
+... of text""")
+This is a lengthy
+        multiline string containing
+a few lines\
+of text
+>>> print("""This is a lengthy
+...     multiline string containing
+... a few lines \
+... of text""")
+This is a lengthy
+        multiline string containing
+a few lines of text
+>>> name=input("What's your name?")
+What's your name? Susie
+>>> name
+' Susie'
+>>> print(name0
+... print(name)
+  File "<stdin>", line 1
+    print(name0
+          ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print(name)
+ Susie
+>>> name=input("What's your name?")
+What's your name? ^B'Susie'
+>>> name
+" \x02'Susie'"
+>>> name=input("What's your name?")
+What's your name? 'Susie'
+>>> name
+" 'Susie'"
+>>> print(name)
+ 'Susie'
+>>> value1=input('Enter first number:')
+Enter first number:7
+>>> value2=input('Enter second number:')
+Enter second number:3
+>>> value1+value2
+'73'
+>>> value=input('Enter an integer:')
+Enter an integer:7
+>>> value=int(value)
+>>> value
+7
+>>> another_value=int(input('Enter another integer:'))
+Enter another integer:13
+>>> another_value
+13
+>>> value+another_value
+20
+>>> bad_value=int(input('Enter another integer:'))
+Enter another integer:hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+>>> int(10.5)
+10
+>>> flot('6.2)*3.3
+  File "<stdin>", line 1
+    flot('6.2)*3.3
+         ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> float('6.2')*3.3
+20.46
+>>> ^A
+KeyboardInterrupt
+>>>

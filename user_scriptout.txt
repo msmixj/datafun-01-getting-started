@@ -1,1 +1,28 @@
 # Paste the output from a sample run here.
+
+Hello!
+What is your name?: Susie
+
+Hello Susie! Let me tell you about the stats of my basketball team!
+
+Pick a player from the following: Cora, Paisley, or Elle: Elle
+
+Elle had 70 points this season.
+
+Now let's discuss the stats of your basketball team.
+How many points did your first player score this season?: 10
+How many points did your second player score this season?: 12
+How many points did your third player score this season?: 14
+
+The lowest scoring player scored 10.0 points.
+The highest scoring player scored 14.0 points.
+Together, your players scored a total of 36.0 points.
+The average points of your three players is 12.0 points.
+The product of your players' points is 1680.0 points.
+The range of your players' points is 4.0 points.
+
+Your first player is below the average. They need an extra practice!
+
+Your second player is average. Let them decide if they want to attend extra practice.
+
+Your third player is above the average. They get to skip extra practice!
