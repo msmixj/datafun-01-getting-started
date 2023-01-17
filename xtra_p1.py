@@ -7,12 +7,12 @@ import random
 
 # Change the name below to a name of your choice
 
-name = "GameBot"
+name = "SusBot"
 
 # Fix the code below to print the name using an f-string
 
 print()
-print("Hello, I'm {name}, your gamebot.")
+print(f"Hello, I'm {name},your gamebot.")
 print("Let's play an animal guessing game!")
 print("There are 3 animals: wolf, eagle, snake (a Python of course).")
 print("The wolf scares the eagle.")
@@ -21,12 +21,11 @@ print("The snake bites the wolf.")
 print("I'll pick one and you pick one and we'll see who wins.")
 print()
 
-# Right now, the user choses wolf everytime.
-# Modify the code so the user is asked to
+# The code has been Modified so the user is asked to
 # enter wolf, eagle, or snake.
 # Hint: use the input() function
 
-user_choice = "wolf"
+user_choice = input("Select wolf, eagle, or snake: ")
 
 # Now the bot will pick one
 buddy_choice = random.choice(["wolf", "eagle", "snake"])
@@ -44,6 +43,21 @@ print()
 # In Python, indentation is important!
 if user_choice == buddy_choice:
     print("We tied!")
+print()
+if user_choice == "wolf" and buddy_choice == "eagle":
+    print("You win!")
+if user_choice == "eagle" and buddy_choice == "wolf":
+    print(f"{name} wins!")
+
+if user_choice == "eagle" and buddy_choice == "snake":
+    print("You win!")
+if user_choice == "snake" and buddy_choice == "eagle":
+    print(f"{name} wins!")
+
+if user_choice == "wolf" and buddy_choice == "snake":
+    print(f"{name} wins!")
+if user_choice == "snake" and buddy_choice == "wolf":
+    print("You win!")
 
 
 # When you finish,
@@ -54,7 +68,6 @@ if user_choice == buddy_choice:
 # docstring comment below.
 # --------------------------------------------------------------------
 """
-
 
 
 
